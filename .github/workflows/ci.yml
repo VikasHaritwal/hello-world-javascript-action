@@ -14,7 +14,7 @@ permissions:
 jobs:
   test-javascript:
     name: JavaScript Tests
-    runs-on: ubuntu-latest
+    rruns-on: runs-on/runner=2cpu-linux-x64
 
     steps:
       - name: Checkout
